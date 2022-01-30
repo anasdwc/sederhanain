@@ -202,6 +202,22 @@ input:checked + .slider:before {
   width: 60%;
 }
 
+@media screen and (max-width: 567px) {
+  .search-box > form {
+    width: 100%;
+  }
+
+  .search input {
+    padding-right: 2px !important;
+  }
+
+  .advanced-search-wraper {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
 [name="keywords"]::placeholder {
   color: var(--black) !important;
   font-weight: 100 !important;
@@ -1093,7 +1109,7 @@ footer > .container > .flex > p {
 }
 
 #show-pchat:before {
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   content: "\f2d1";
   text-align: center;
   position: absolute;
