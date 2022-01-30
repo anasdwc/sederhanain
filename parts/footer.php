@@ -2,7 +2,7 @@
     <div class="container">
         <div class="flex font-thin text-sm">
             <p class="flex-1">&copy; <?php echo date('Y'); ?> &mdash; Senayan Developer Community</p>
-            <div class="flex-1 text-right"><?= __('Powered by '); ?><code>SLiMS</code><br>Edited Theme by Annas Dwi</div>
+            <div class="flex-1 text-right"><?= __('Powered by '); ?><code>SLiMS</code><br>Edited Theme by <a href="https://github.com/anasdwc">Annas Dwi</a></div>
         </div>
     </div>
 </footer>
