@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+  #slims-home > .container {
+      width: 90%;
+  }
+
+  .navbar-nav > .nav-item.active {
+      border-radius: .4em;
+      background-color: #9FA4B4;
+      margin: 0;
+      padding: .2em 1em;
+      font-weight: bold;
+  }
+
+  section.container > div.container {
+    margin-top: 20vh;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .w-48.pb-4 { width: 100%;}
+
+  .card-body {
+      display: flex;
+  } 
+
+  .card-body > .card-image {
+    width: 60%;
+  }
+
+  .card-body > .card-text {
+    width: 70%;
+    padding-left: 1em;
+    align-items: center;
+    display: flex;
+  }
+
+  .card-body > .card-image > img{
+    max-width: 100%;
+  }
+  
+  #slims-home > .container {
+    width: 100%;
+    margin-bottom: 0;
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+  }
+
+  #slims-home > .container > h4 {
+    text-align: left;
+  }
+  
+  .advanced-search-wraper {
+    margin-top: .8em;
+    width: 100%;
+    text-align: center;
+  }
+}
